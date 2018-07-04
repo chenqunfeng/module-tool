@@ -1,5 +1,5 @@
 {
-  "name": "ts-lint-tool",
+  "name": "module-tool",
   "version": "1.0.0",
   "description": "VSCode编辑器下基于typescript的lint工具",
   "main": "",
