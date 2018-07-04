@@ -5,16 +5,23 @@
   "main": "",
   "scripts": {
     "build": "tsc",
+    "test": "mocha -r ts-node/register test/**/*.ts",
     "tslint": "tslint -p ./tsconfig.json --fix"
   },
   "pre-commit": [
-    "tslint"
+    "tslint",
+    "test"
   ],
   "author": "chenqunfeng<https://github.com/chenqunfeng>",
   "license": "ISC",
   "dependencies": {
+    "@types/jasmine": "^2.8.8",
+    "@types/mocha": "^5.2.4",
+    "@types/node": "^10.5.1",
+    "mocha": "^5.2.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.13.7",
+    "ts-node": "^7.0.0",
     "tslint": "^5.10.0",
     "tslint-config-prettier": "^1.13.0",
     "tslint-eslint-rules": "^5.3.1",
