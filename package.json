@@ -4,6 +4,7 @@
   "description": "VSCode编辑器下基于typescript的lint工具",
   "main": "",
   "scripts": {
+    "build": "tsc",
     "tslint": "tslint -p ./tsconfig.json --fix"
   },
   "pre-commit": [

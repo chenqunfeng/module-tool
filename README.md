@@ -10,8 +10,6 @@
 2. 在VSCode中安装插件EditorConfig for VS Code
 3. 在根目录下执行 ```npm install```
 
-完成以上操作之后，便可以在```src```目录下进行代码编写。
-
 ## 注意事项
 
 1. 建议打开Visual Studio Code的editor.formatOnSave选项，以便保存时可以自动格式化
