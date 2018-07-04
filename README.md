@@ -6,8 +6,15 @@
 
 ## 结构
 ```
--- src  // 项目代码
--- test // 测试代码
+-- src            // 项目代码
+-- test           // 测试代码
+-- .editorconfig  // 规范编辑器格式
+-- .gitignore     // git提交的忽视文件和目录
+-- .prettierrc    // 规范代码格式
+-- .package.json  // npm描述文件
+-- README.md      // 项目描述文件
+-- tsconfig.json  // typescript配置文件
+-- tslint.json    // tslint配置文件
 ```
 
 ## 准备
