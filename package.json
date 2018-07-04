@@ -1,0 +1,23 @@
+{
+  "name": "ts-lint-tool",
+  "version": "1.0.0",
+  "description": "VSCode编辑器下基于typescript的lint工具",
+  "main": "",
+  "scripts": {
+    "tslint": "tslint -p ./tsconfig.json --fix"
+  },
+  "pre-commit": [
+    "tslint"
+  ],
+  "author": "chenqunfeng<https://github.com/chenqunfeng>",
+  "license": "ISC",
+  "dependencies": {
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.13.7",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "tslint-eslint-rules": "^5.3.1",
+    "tslint-plugin-prettier": "^1.3.0",
+    "typescript": "^2.9.2"
+  }
+}

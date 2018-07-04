@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"],
+    },
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es5",
+    "strict": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["dom", "es2015", "es2016", "es2017", "esnext"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
